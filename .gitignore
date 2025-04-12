@@ -4,3 +4,6 @@ img_ColourHist_Features/
 img_ColourHist_LBP_Hist_Features/
 img_LBP_Hist_Features/
 img_HOG_Features/
+1_SVM-Priyanshu_Swain/saved_models/SVM_Model_4.pkl
+1_SVM-Priyanshu_Swain/saved_models/SVM_Model_5.pkl
+1_SVM-Priyanshu_Swain/saved_models/SVM_Model_6.pkl
