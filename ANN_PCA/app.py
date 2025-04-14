@@ -8,7 +8,7 @@ from PIL import Image
 from io import BytesIO
 
 # Load model and preprocessor
-model = tf.keras.models.load_model('fruit_ann_model.h5')
+model = tf.keras.models.load_model('fruit_model.h5')
 
 # Load the PCA transformer with 50 components
 with open('pca_transformer.pkl', 'rb') as f:
