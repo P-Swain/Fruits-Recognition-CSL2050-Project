@@ -1,0 +1,31 @@
+A)developing PCA algorithm for dimension reduction:
+    1)Image Import and Preprocessing:
+
+        *Images are loaded in batches, resized, flattened, normalized, and labeled.
+
+        *Results are cached to a .pkl file.
+
+    2)Dimensionality Reduction with Incremental PCA:
+
+        *Data is reduced to 2 or 3 dimensions.
+
+        *If PCA results exist in cache, they’re loaded.
+
+    3)2D & 3D Visualization:
+
+        *2D scatter plots visualize PCA results using matplotlib.
+
+        *3D plots show deeper data structure using mpl_toolkits.mplot3d.
+
+    4)Clustering with KMeans:
+
+        *After PCA, KMeans groups images into clusters (default: 136).
+
+        *Clustering results are visualized in 3D space.
+B)adding PCA variance explained plots to assess component contribution.
+        *figured out that the 135 clustered i considered were wrong using re library to find unique fruit labels
+        *adding other feature other than pixel intensity which i am using now, like hog,color histograms,i think i can also use cnn features from the intermediate level
+C) Additional Feature Extraction Exploration
+        *Other Features: In addition to pixel intensity, other features like Histogram of Oriented Gradients (HOG) and color histograms were explored for better feature representation.
+
+        *CNN Features: Plans are in place to use CNN features from intermediate layers to enhance the feature extraction process. This could potentially improve the clustering accuracy by using more sophisticated image representations.
